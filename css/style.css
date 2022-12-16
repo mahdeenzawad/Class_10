@@ -1,0 +1,392 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alfa Slab One', cursive !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER START  */
+.header {
+    width: 100%;
+    padding: 30px 0px;
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.menu .info {
+    width: 100%;
+    text-align: right;
+}
+
+.menu .info P {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #3d2514;
+    letter-spacing: 1px;
+    margin: 0px 8px 0px 0px;
+}
+
+.menu .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    color: #3d2514;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 25px;
+    font-weight: 600;
+}
+
+.menu .navbar-nav .nav-item .nav-link:hover {
+    color: #bf2222;
+    transition: .5s;
+}
+
+.banner {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.banner h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive !important;
+    color: #3d2514;
+    margin: 60px 0px 0px;
+}
+
+.banner h4 span {
+    padding: 5px;
+    border: 2px dashed #3d2514;
+}
+
+.banner h1 {
+    margin: 15px 0px 0px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 0px;
+    text-shadow: 1px 4px 10px #fff;
+}
+
+.banner h3 {
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 44px;
+    line-height: 54px;
+    text-shadow: 1px 4px 8px #fff;
+    margin: 0px;
+    ;
+}
+
+/* HEADER END */
+/* POPULAR START  */
+.popular {
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.popular .card {
+    border: 0px;
+    margin: 0px 0px 33px;
+}
+
+.popular .card h5 {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive !important;
+    margin: 0px;
+}
+
+.popular .card p {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive !important;
+
+}
+
+/* POPULAR END   */
+/* CHOOSE START  */
+.choose {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.choose .title {
+    width: 100%;
+    text-align: center;
+}
+
+.choose .title h4 {
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 25px;
+}
+
+.choose .title h4 span {
+    padding: 10px 20px;
+    background: #ffc045;
+}
+
+.choose .title h2 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.choose .title p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3d2514;
+    font-family: sans-serif;
+}
+
+.choose .inner-choose {
+    padding: 40px 0px;
+    text-align: center;
+    margin: 0px 35px
+}
+
+.choose .inner-choose h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+.choose .inner-choose p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.choose .inner-choose a {
+    border-radius: 0px;
+    padding: 10px 30px;
+    background-color: #bf2222;
+    border: 0px;
+    font-family: 'Alfa Slab One', cursive !important;
+}
+
+.choose .inner-choose a:hover {
+    color: #3d2514;
+    background: transparent;
+    border: 1px solid #bf2222;
+    transition: 0.5s;
+}
+
+/* CHOOSE END  */
+/* SLIDER START  */
+.slider-section {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.slider-section .owl-carousel {
+    width: 100%;
+    padding: 40px;
+    box-shadow: 1px 4px 10px #ccc;
+}
+
+.slider-section .item {
+    width: 100%;
+}
+
+.slider-section .item h4 {
+    
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 20px;
+}
+
+.slider-section .item h2 {
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 36px;
+    color: #3d2514;
+    margin: 0px 0px 22px;
+}
+
+.slider-section .item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.slider-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5%;
+}
+
+/* SLIDER END  */
+/* RESERVATION START  */
+.reservation {
+    width: 100%;
+    padding: 180px 0px;
+    background: url(../images/Image.png) center top no-repeat;
+    background-size: cover;
+}
+
+.reservation .title {
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+    padding: 0px 0px 60px;
+}
+
+.reservation .title h4 {
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 20px;
+}
+
+.reservation .title h2 {
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 42px;
+    line-height: 52px;
+    color: #3d2514;
+    color: #3d2514;
+    margin: 0px 0px 22px;
+}
+
+.reservation .form-control {
+    display: block;
+    margin: 15px 0px;
+    padding: 15px 40px;
+    background: transparent;
+    border: 1px solid #ccc;
+}
+
+.reservation .form-control:hover {
+    box-shadow: 1px 4px 8px #ccc;
+}
+
+.reservation .form-control:focus {
+    box-shadow: 1px 4px 8px #ccc;
+}
+
+.reservation .btn-primary {
+    display: block;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-family: 'Alfa Slab One', cursive !important;
+    background-color: #bf2222;
+    border: none;
+}
+
+.reservation .btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid #bf2222;
+    transition: .5s;
+    color: #3d2514;
+}
+
+/* RESERVATION END */
+/* FOOTER START  */
+.footer {
+    width: 100%;
+    background: url(../images/footer.png) center top no-repeat;
+    background-size: cover;
+}
+
+.main-footer {
+    width: 100%;
+    padding: 60px 0px 20px;
+    /* background: url(../images/footer.png) center top no-repeat;
+    background-size: cover; */
+
+}
+.main-footer .footer-logo{
+    margin: 0px 0px 50px;
+}
+.main-footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.main-footer .info {
+    width: 100%;
+}
+.main-footer .info p img{
+    margin: 0px 25px 0px 0px;
+}
+.copyright{
+    width: 100%;
+    padding: 130px 0px 0px;
+}
+.copyright .social-icons{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+.copyright .social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.copyright .social-icons li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 20px;
+    color: #000;
+    margin: 0px 0px 0px 15px;
+    border-radius: 100%;
+    line-height: 30px;
+    transition: 0.5s;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+.copyright .social-icons li a:hover{
+    background: transparent;
+    color: #fff;
+}
+.copyright p{
+    font-family: 'Bebas Neue', cursive !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* FOOTER END */
